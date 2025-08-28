@@ -2,32 +2,26 @@ package main
 
 import (
 	"fmt"
-	"math"
 )
 
 func main() {
-	fmt.Println(isPalindrome(90))
+	fmt.Println(singleNumber([]int{2, 2, 3}))
 }
 
-func isPalindrome(x int) bool {
-	if x < 0 {
-		return false
-	}
-
-	length := 0
-	y := x
-	for y > 0 {
-		y /= 10
-		length++
-	}
-
-	for i := 1; i <= length/2; i++ {
-		left := x / int(math.Pow(10, float64(length-i))) % 10
-		right := x / int(math.Pow(10, float64(i-1))) % 10
-		if left != right {
-			return false
+func singleNumber(nums []int) int {
+	result := make(map[int]int)
+	for _, x := range nums {
+		_, exist := result[x]
+		if exist {
+			delete(result, x)
+		} else {
+			result[x] = 1
 		}
 	}
-	return true
 
+	var x int
+	for k := range result {
+		x = k
+	}
+	return x
 }
