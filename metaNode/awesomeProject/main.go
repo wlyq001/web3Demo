@@ -5,23 +5,48 @@ import (
 )
 
 func main() {
-	fmt.Println(singleNumber([]int{2, 2, 3}))
+	fmt.Println(merge([][]int{{1, 3}, {2, 6}, {8, 10}, {15, 18}}))
 }
 
-func singleNumber(nums []int) int {
-	result := make(map[int]int)
-	for _, x := range nums {
-		_, exist := result[x]
-		if exist {
-			delete(result, x)
-		} else {
-			result[x] = 1
+func merge(intervals [][]int) [][]int {
+	stackL := []int{}
+	stackR := []int{}
+	for _, v := range intervals {
+		if len(stackL) == 0 {
+			stackL = append(stackL, v[0])
+			stackR = append(stackR, v[1])
+			continue
 		}
+		small := v[0]
+		big := v[1]
+		for i := 0; i < len(stackL); i++ {
+			if small > stackL[i] && small < stackR[i] {
+				if big < stackR[i] {
+					break
+				}
+				small = stackL[i]
+				stackL[i] = -1
+				stackR[i] = -1
+			}
+			if big > stackL[i] && big < stackR[i] {
+				if small > stackL[i] {
+					break
+				}
+				big = stackR[i]
+				stackL[i] = -1
+				stackR[i] = -1
+			}
+		}
+		stackL = append(stackL, small)
+		stackR = append(stackR, big)
 	}
 
-	var x int
-	for k := range result {
-		x = k
+	result := [][]int{}
+	for i := 0; i < len(stackL); i++ {
+		if stackL[i] == -1 {
+			continue
+		}
+		result = append(result, []int{stackL[i], stackR[i]})
 	}
-	return x
+	return result
 }
