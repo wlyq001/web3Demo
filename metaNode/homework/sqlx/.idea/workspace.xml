@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8d50db5c-1c5c-44c3-9199-6cae8300f74d" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/metaNode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chapterDemo/range/.idea/range.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chapterDemo/select/.idea/select.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chapterDemo/slice/.idea/slice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chapterDemo/type_convert/.idea/type_convert.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gorm/connect_db/.idea/connect_db.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gorm/connect_db/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gorm/connect_db/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gorm/connect_db/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gorm/connect_db/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gorm/connect_db/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gorm/crud/.idea/crud.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gorm/crud/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gorm/crud/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gorm/crud/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gorm/crud/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gorm/crud/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../channel/.idea/channel.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../channel/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../channel/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../channel/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../channel/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../channel/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gorm/.idea/gorm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gorm/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gorm/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gorm/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gorm/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gorm/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../goroutine/.idea/goroutine.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../goroutine/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../goroutine/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../goroutine/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../goroutine/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../goroutine/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lock/.idea/lock.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lock/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pointer/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pointer/.idea/pointer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pointer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pointer/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pointer/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pointer/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../toObject/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../toObject/.idea/toObject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../toObject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../toObject/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../toObject/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../toObject/main.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" url="file://$USER_HOME$/go1.23.0" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="327Pud9a33I4fVJrsO9AQlFqFlD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "last_opened_file_path": "/Users/wangliyiqun",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-f466f9b0953e-3d2cccfc42a2-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-252.23892.530" />
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-GO-252.23892.530" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="8d50db5c-1c5c-44c3-9199-6cae8300f74d" name="更改" comment="" />
+      <created>1756768860458</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1756768860458</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
